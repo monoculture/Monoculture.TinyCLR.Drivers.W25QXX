@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{73C9FCE2-2AE4-4CDC-9751-1FFE6411908A}"
+	ProjectSection(SolutionItems) = preProject
+		Build\build-pipeline.yml = Build\build-pipeline.yml
+		Build\SetPackageVersion.ps1 = Build\SetPackageVersion.ps1
+		Build\UpdateAssemblyInfo.ps1 = Build\UpdateAssemblyInfo.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{FA3E9BDA-A69A-4352-9A94-0BDD0AE39ABE}"
+	ProjectSection(SolutionItems) = preProject
+		Docs\w25q128fv rev.l 08242015.pdf = Docs\w25q128fv rev.l 08242015.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ECC01C2B-1D51-4496-990E-FC69D53B400B}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{D09F8855-9295-442C-BBB2-B15BFB24FA44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monoculture.TinyCLR.Drivers.W25QXX", "Source\Monoculture.TinyCLR.Drivers.W25QXX\Monoculture.TinyCLR.Drivers.W25QXX.csproj", "{7865FB76-50D6-4B59-BF91-59F8C2378393}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monoculture.TinyCLR.Drivers.W25QXX.Demo", "Source\Monoculture.TinyCLR.Drivers.W25QXX.Demo\Monoculture.TinyCLR.Drivers.W25QXX.Demo.csproj", "{B92ECEA0-2026-46DA-9B17-C09121971F0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7865FB76-50D6-4B59-BF91-59F8C2378393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7865FB76-50D6-4B59-BF91-59F8C2378393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7865FB76-50D6-4B59-BF91-59F8C2378393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7865FB76-50D6-4B59-BF91-59F8C2378393}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B92ECEA0-2026-46DA-9B17-C09121971F0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B92ECEA0-2026-46DA-9B17-C09121971F0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B92ECEA0-2026-46DA-9B17-C09121971F0C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B92ECEA0-2026-46DA-9B17-C09121971F0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B92ECEA0-2026-46DA-9B17-C09121971F0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B92ECEA0-2026-46DA-9B17-C09121971F0C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7865FB76-50D6-4B59-BF91-59F8C2378393} = {D09F8855-9295-442C-BBB2-B15BFB24FA44}
+		{B92ECEA0-2026-46DA-9B17-C09121971F0C} = {D09F8855-9295-442C-BBB2-B15BFB24FA44}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F69FFFE7-0AF3-4B77-9D2E-031EE8107745}
+	EndGlobalSection
+EndGlobal
